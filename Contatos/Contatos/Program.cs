@@ -29,7 +29,7 @@ namespace Contatos
         static void Main(string[] args)
         {
             var diretorioAtual = Directory.GetCurrentDirectory();
-            var caminhoArquivo = Path.Combine(diretorioAtual, "Data", "MOCK_DATA.csv");
+            var caminhoArquivo = Path.Combine(diretorioAtual, "Data", "MOCK_DATA_Contato.csv");
             using (IContatoRepositorio repositorio = new ContatoRepositorioCSV(caminhoArquivo))
             {
                 while (true)

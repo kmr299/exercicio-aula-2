@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\ContatoTelefone.cs" />
     <Compile Include="Data\Contato.cs" />
     <Compile Include="Data\ContatoRepositorioCSV.cs" />
     <Compile Include="Data\Genero.cs" />
@@ -50,9 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\MOCK_DATA.csv">
+    <None Include="Data\MOCK_DATA_Contato.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Data\MOCK_DATA_ContatoTelefone.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
